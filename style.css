@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+}
+
+.hero{
+    background-color: #f2f2f2;
+    padding: 80px 20px;
+}
+
+.profile-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.contact-section{
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
