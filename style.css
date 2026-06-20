@@ -28,11 +28,20 @@ body{
     padding: 100px 20px;
 }
 
+/*.profile-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+}*/
+
 .profile-img{
     width: 140px;
     height: 140px;
     border-radius: 50%;
     border: 4px solid white;
+    object-fit: cover;
+    object-position: center 20%;
 }
 
 
@@ -54,6 +63,15 @@ body{
 .contact-section{
     padding: 70px 20px;
     background-color: #f8f9fa;
+}
+
+.error-text{
+    color: red;
+    font-size: 14px;
+}
+
+.input-error{
+    border: 2px solid red;
 }
 
 
