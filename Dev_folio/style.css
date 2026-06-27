@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-link{
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #0d6efd !important;
+}
+
+
+/* Hero Section */
+
+.hero{
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 100px 20px;
+}
+
+/*.profile-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+}*/
+
+.profile-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    object-position: center 20%;
+}
+
+
+/* Skills */
+
+.skill-card{
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skill-card:hover{
+    transform: translateY(-8px);
+}
+
+
+/* Contact Section */
+
+.contact-section{
+    padding: 70px 20px;
+    background-color: #f8f9fa;
+}
+
+.error-text{
+    color: red;
+    font-size: 14px;
+}
+
+.input-error{
+    border: 2px solid red;
+}
+
+
+/* Footer */
+
+footer{
+    font-size: 14px;
+}
